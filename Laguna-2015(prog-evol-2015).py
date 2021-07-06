@@ -3,13 +3,12 @@
 Autor: Jhordan Silveira de Borba (sbjhordan@gmail.com)
 Site: https://sites.google.com/view/jdan/
 """
-
 #Bibliotecas
 import numpy as np                                      # Biblioteca de funções matemáticas
 import copy                                             # Biblioteca com funções para copiar
 
 #CONDIÇÕES INICIAIS ------------------------------------------------------
-maxt = 15000    #tiempo total de cada realizacion
+maxt = 500    #tiempo total de cada realizacion
 Lx   = 100      #tamaño del sustrato
 Ly   = 100
 
@@ -60,7 +59,7 @@ for j in range(Ly):
 
 #-------------------------------------------------------
 #Lazo temporal
-fx1=sum(sum(x1))/((Lx-1)*(Ly-1)) #Original -1, acredito que deve ser -2
+fx1=sum(sum(x1))/((Lx-1)*(Ly-1))
 fx2=sum(sum(x2))/((Lx-1)*(Ly-1))
 fy =sum(sum(y)) /((Lx-1)*(Ly-1))
 f = open("minha.dat", "w")
@@ -131,6 +130,5 @@ for it in range(maxt):
   fy =sum(sum(y)) /((Lx-1)*(Ly-1))
   f.write("	"+str(it+1)+"	"+str(fx1)+"	"+str(fx2)+"	"+str(fy)+"\n")
   
-# CÁLCULOS FINAIS -----------------------------------------------------
-f.close
+f.close()
 g.close() 

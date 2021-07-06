@@ -5,7 +5,7 @@
 
 	IDUM= -135
 	open (unit=1,file="psd.dat") 
-	DO i=1,2000000000
+	DO i=1,300000000
 		write(1,*),real(RAN2(IDUM))
 		!print *,i
 	END DO

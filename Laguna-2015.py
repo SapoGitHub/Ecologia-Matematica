@@ -56,9 +56,9 @@ cx1   = 0.05         #colonizaciones
 cx2   = 0.1        
 cy    = 0.015     
 ex1   = 0.05         #extinciones       
-ex2   = 0.01      
-eyi   = 0.001
-eyf   = 0.04
+ex2   = 0.01     
+eyi   = 0.017
+eyf   = 0.017
 mx1y  = 0.2          #depredaciones       
 mx2y  = 0.8            
 depx1 = ex1+mx1y       #mortalidad aumentada=extincion+depredacion
@@ -71,8 +71,8 @@ R     = 50000      # Passo que vamos remover as ovelhas
 
 rng = np.random.RandomState(2021) #Define os números pseudo-aleatórios
 
-f1 = open("medias.dat", "w")
-f2 = open("desvio_padrao.dat", "w")
+#f1 = open("medias.dat", "w")
+#f2 = open("desvio_padrao.dat", "w")
 
 for EY in range(int(eyi*1000),int(eyf*1000)+1,1): # Percorrer os fatores de extinção local do puma
     ey=float(EY)/1000  # Os passos são de 0.001
@@ -232,10 +232,10 @@ for EY in range(int(eyi*1000),int(eyf*1000)+1,1): # Percorrer os fatores de exti
         pumas.append(   np.array(pe[-M:]).mean())    
           
     # CÁLCULOS FINAIS -----------------------------------------------------
-    f1.write(str(EY/1000)+"	"+str(np.array(guanacos).mean())+"	"+str(np.array(ovelhas).mean())+"	"+str(np.array(pumas).mean())+"\n")
-    f2.write(str(EY/1000)+"	"+str( np.array(guanacos).std())+"	"+str( np.array(ovelhas).std())+"	"+str( np.array(pumas).std())+"\n")
+    #f1.write(str(EY/1000)+"	"+str(np.array(guanacos).mean())+"	"+str(np.array(ovelhas).mean())+"	"+str(np.array(pumas).mean())+"\n")
+    #f2.write(str(EY/1000)+"	"+str( np.array(guanacos).std())+"	"+str( np.array(ovelhas).std())+"	"+str( np.array(pumas).std())+"\n")
 
-f1.close()
-f2.close()
+#f1.close()
+#f2.close()
 
 #inst(it,s,x1,x2,y)
