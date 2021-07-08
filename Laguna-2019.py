@@ -1,7 +1,11 @@
 # -*- coding: UTF-8 -*-
 """
-Autor: Jhordan Silveira de Borba (sbjhordan@gmail.com)
-Site: https://sites.google.com/view/jdan/
+Modelo baseado em autômatos celulares
+Autor:           Jhordan Silveira de Borba
+E-mail:          sbjhordan@gmail.com
+Site:            https://sites.google.com/view/jdan/
+Modelo original: Waves of desertification in a competitive ecosystem
+Link:            https://fisica.cab.cnea.gov.ar/estadistica/abramson/papers/ecological/desertification.pdf
 """
 
 #Bibliotecas

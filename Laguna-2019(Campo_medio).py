@@ -1,6 +1,10 @@
 """
-Autor: Jhordan Silveira de Borba (sbjhordan@gmail.com)
-Site: https://sites.google.com/view/jdan/
+Modelo baseado em um sistema de equações diferenciais com atraso
+Autor:           Jhordan Silveira de Borba
+E-mail:          sbjhordan@gmail.com
+Site:            https://sites.google.com/view/jdan/
+Modelo original: Waves of desertification in a competitive ecosystem
+Link:            https://fisica.cab.cnea.gov.ar/estadistica/abramson/papers/ecological/desertification.pdf
 """
 import matplotlib.pyplot as plt
 import numpy as np

@@ -1,3 +1,6 @@
+! Gerador de números aleatórios
+! Provavelmente baseado em códigos da primeira edição do Numerical Recipes
+
 	program mytest1
 
 	real RAN2  

@@ -1,7 +1,11 @@
 # -*- coding: UTF-8 -*-
 """
-Autor: Jhordan Silveira de Borba (sbjhordan@gmail.com)
-Site: https://sites.google.com/view/jdan/
+Modelo baseado em autômatos celulares
+Autor:           Jhordan Silveira de Borba
+E-mail:          sbjhordan@gmail.com
+Site:            https://sites.google.com/view/jdan/
+Modelo original: Mathematical model of livestock and wildlife: Predation and competition under environmental disturbances
+Link:            https://arxiv.org/abs/1409.0024
 """
 
 #Bibliotecas

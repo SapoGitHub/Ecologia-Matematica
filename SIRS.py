@@ -1,6 +1,9 @@
 """
-Autor: Jhordan Silveira de Borba (sbjhordan@gmail.com)
-Site: https://sites.google.com/view/jdan/
+Autor:           Jhordan Silveira de Borba
+E-mail:          sbjhordan@gmail.com
+Site:            https://sites.google.com/view/jdan/
+Modelo original: Oscillations in SIRS model with distributed delays
+Link:            https://arxiv.org/abs/1409.0024
 """
 import matplotlib.pyplot as plt
 import numpy as np

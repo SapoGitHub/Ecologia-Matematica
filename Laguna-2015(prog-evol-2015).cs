@@ -1,4 +1,13 @@
-﻿using System;               //Namespace padrão System
+﻿/*
+Modelo baseado em autômatos celulares
+Autor:           Jhordan Silveira de Borba
+E-mail:          sbjhordan@gmail.com
+Site:            https://sites.google.com/view/jdan/
+Modelo original: Mathematical model of livestock and wildlife: Predation and competition under environmental disturbances
+Link:            https://arxiv.org/abs/1409.0024
+ */
+
+using System;               //Namespace padrão System
 using System.IO;            // include the System.IO namespace
 using System.Globalization; //Mudar a cultura (pontuação)
 

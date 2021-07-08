@@ -1,4 +1,5 @@
 """
+Modelo de Lotka-Volterra com amortecimento
 Autor: Jhordan Silveira de Borba (sbjhordan@gmail.com)
 Site: https://sites.google.com/view/jdan/
 """
@@ -10,7 +11,7 @@ def sol_lot():
     x=[]
     y=[]
     x.append(1)      # População inicial de presas
-    y.append(0.5) # População inicial de predadores
+    y.append(0.5)    # População inicial de predadores
     N=400000         # Quantidade de passos
     d=0.0001         # Tamanhodos passos
     a=0              # 1: Amortecido, 0: Sem amortecimento
