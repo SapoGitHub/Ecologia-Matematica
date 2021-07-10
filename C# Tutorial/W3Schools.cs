@@ -1,4 +1,11 @@
-﻿using System;                                           //Nos permite usar as classes do namespace System
+﻿/*
+Tutorial de C#
+Autor:           Jhordan Silveira de Borba
+E-mail:          sbjhordan @gmail.com
+Site:            https://sites.google.com/view/jdan/
+Link:            https://www.w3schools.com/cs/index.php
+*/
+using System;                                           //Nos permite usar as classes do namespace System
 
 namespace Programa                                      //NAMESPACE: container para classes e outros namespaces, organizar o código
 {
