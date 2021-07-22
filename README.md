@@ -5,7 +5,7 @@ Segue abaixo uma pequena descrição de cada arquivo:
 * [Laguna-2015(2-especies)](https://fiscomp.if.ufrgs.br/index.php/Modelo_de_Levins_aprimorado_para_2_esp%C3%A9cies): Solução numérica para as equações diferenciais para 2 espécies
 * **Laguna-2015(AC com OOP)**: Modelo baseado no artigo de 2015 da Fabiana como os outros códigos, mas escrito utilizando programação orientada a Obejetos.
 * [Laguna-2015(Campo_medio)](https://fiscomp.if.ufrgs.br/index.php/Modelo_de_Levins_aprimorado_para_3_esp%C3%A9cies): Solução numérica para as equações do campo médio
-* * **Laguna-215(MBI 1 e 2)**: Modelo de transição, construído a partir da proposta original baseada em autômatos celulares, mas com alguns princípios de modelagem baseada em indivíduo.
+* **Laguna-215(MBI 1 e 2)**: Modelo de transição, construído a partir da proposta original baseada em autômatos celulares, mas com alguns princípios de modelagem baseada em indivíduo.
 * [Laguna-2015(Rede_media)](https://fiscomp.if.ufrgs.br/index.php/Simula%C3%A7%C3%A3o_e_modelo_de_campo_m%C3%A9dio): Simulação 1 baseada nos modelos de campo médio 
 * [Laguna-2015(Rede_media2)](https://fiscomp.if.ufrgs.br/index.php/Simula%C3%A7%C3%A3o_e_modelo_de_campo_m%C3%A9dio):  Simulação 2 baseada nos modelos de campo médio 
 * [Laguna-2015(prog-evol-2015)](https://fiscomp.if.ufrgs.br/index.php/Modelo_espacialmente_expl%C3%ADcito): Transcrição do código original
