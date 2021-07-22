@@ -37,7 +37,7 @@ namespace Vida_selvagem_e_Pecuária
             //p = rnd.NextDouble();
             //hmov[it, 1] = p;
             y += (rnd.NextDouble() < 0.5) ? -1 : 1; //Mover aleatoriamente para cima e baixo
-            //Obs.: Ele se move mais rápido na diagonal, pois o desloamento tem módulo maior que 1
+            //Obs.: Ele se move mais  somente na diagonal
             //Checar as fronteiras
             x = (x < 0) ? 0 : x;
             x = (x >= largura) ? largura - 1 : x;

@@ -28,7 +28,7 @@ namespace Vida_selvagem_e_Pecuária
                     f[2] = f[2] + y[i, j];
                 }
             }
-            f[0] /= (Lx - 1) * (Ly - 1);
+            f[0] /= (Lx - 1) * (Ly - 1); //Acredito que devia ser -2
             f[1] /= (Lx - 1) * (Ly - 1);
             f[2] /= (Lx - 1) * (Ly - 1);
             return f;
@@ -68,7 +68,7 @@ namespace Vida_selvagem_e_Pecuária
             // Convert.ToDouble(file.ReadLine()) -> Convert.ToDouble(file.ReadLine())
 
             //Inicializa as matrizes
-            int[,] s = new int[Lx, Ly];
+            int[,] s = new int[Lx, Ly]; //Na verdade parece que devia sre o contrário
             int[,] x1 = new int[Lx, Ly];
             int[,] x2 = new int[Lx, Ly];
             int[,] y = new int[Lx, Ly];
